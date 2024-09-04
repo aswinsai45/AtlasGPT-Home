@@ -4,7 +4,7 @@ const LoginPage = () => {
   return (
     <div className="flex flex-col md:flex-row h-screen overflow-hidden">
       {/* Left Half - Image */}
-      <div className="md:w-1/2 w-full h-1/2 md:h-full">
+      <div className="md:w-[3/4] w-full h-1/2 md:h-full">
         <img
           src="/src/assets/loginPageImg.jpeg"
           alt="icon"
@@ -48,7 +48,7 @@ const LoginPage = () => {
             <label className="inline-flex items-center cursor-pointer">
               <input type="checkbox" className="hidden peer" />
               <div className="relative w-11 h-6 bg-gray-200 rounded-full peer-checked:bg-blue-600 transition-colors">
-                <div className="absolute left-[2px] top-[2px] w-5 h-5 bg-white border border-gray-300 rounded-full transition-transform peer-checked:transform translate-x-full"></div>
+                <div className="absolute left-[2px] top-[2px] w-5 h-5 bg-white border border-gray-300 rounded-full transition-transform peer-checked:transform translate-x-full peer-checked:translate-x-0"></div>
               </div>
               <span className="ml-3 text-sm font-small text-gray-300">
                 Remember me
